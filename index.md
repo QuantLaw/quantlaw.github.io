@@ -1,7 +1,3 @@
-# QuantLaw
-
-## Quantitative Legal Studies
-
-### Articles
+## Articles
 
 No articles so far.
