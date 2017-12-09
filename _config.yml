@@ -2,3 +2,4 @@
 theme: jekyll-theme-slate
 title: QuantLaw
 description: Quantitative Legal Studies
+show_downloads: true
