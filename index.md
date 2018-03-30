@@ -1,3 +1,9 @@
 ## Aufsatz
 
-*Coupette/Fleckner*, JZ 2018: [Online-Anhang](https://quantlaw.github.io/jz-2018/)
+*Coupette/Fleckner*, JZ 2018: [Online-Anhang](https://www.quantitative-rechtswissenschaft.de)
+
+
+
+
+
+
