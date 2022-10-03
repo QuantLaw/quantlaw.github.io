@@ -8,9 +8,10 @@ footer p {
 
 $custom-bg-color: #DDDDDD;
 $custom-font-color: #4C4C4C;
+$custom-font: Palatino;
 
-#body {
-  font-family: 'Minion Pro', serif;
+#main_content, #footer, #project_title, th, h2 {
+  font-family: $custom-font, serif;
 }
 
 #header_wrap, #footer_wrap {
