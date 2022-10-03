@@ -11,12 +11,30 @@ $custom-font-color: #4C4C4C;
 $custom-accent-color: #0095BF;
 $custom-font: Palatino;
 
-#main_content, #footer, #project_title, #forkme_banner, th, h2 {
+#main_content, #project_title, #forkme_banner, p, th, h2 {
   font-family: $custom-font, serif;
 }
 
 #forkme_banner {
   background: url("../images/blacktocat.png") #0095BF no-repeat 95% 50%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+a:hover {
+    color: $custom-accent-color;
+    teext-decoration: underline;
+    text-decoration-style: solid;
+}
+
+table, th, td {
+  border-left: none;
+  border-right: none;
 }
 
 #header_wrap, #footer_wrap {
