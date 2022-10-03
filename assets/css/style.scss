@@ -8,14 +8,19 @@ footer p {
 
 $custom-bg-color: #DDDDDD;
 $custom-font-color: #4C4C4C;
+$custom-accent-color: #0095BF;
 $custom-font: Palatino;
 
-#main_content, #footer, #project_title, th, h2 {
+#main_content, #footer, #project_title, #forkme_banner, th, h2 {
   font-family: $custom-font, serif;
 }
 
+#forkme_banner {
+  background: url("../images/blacktocat.png") #0095BF no-repeat 95% 50%;
+}
+
 #header_wrap, #footer_wrap {
-  background: linear-gradient(to top, $custom-font-color, $custom-font-color);
+  background: $custom-font-color;
 }
 
 #footer, #project_title {
