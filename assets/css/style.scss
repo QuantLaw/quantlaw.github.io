@@ -9,11 +9,15 @@ footer p {
 $custom-bg-color: #DDDDDD;
 $custom-font-color: #4C4C4C;
 
+#body {
+  font-family: 'Minion Pro', serif;
+}
+
 #header_wrap, #footer_wrap {
   background: linear-gradient(to top, $custom-font-color, $custom-font-color);
 }
 
-#project_title {
+#footer, #project_title {
   color: $custom-bg-color;
 }
 
