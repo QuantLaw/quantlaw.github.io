@@ -7,7 +7,11 @@ footer p {
 }
 
 #header_wrap, #footer_wrap {
-  color: #4C4C4C;
+  background: linear-gradient(to top, #4C4C4C, #4C4C4C);
+}
+
+#project_title {
+  color: #DDDDDD;
 }
 
 #main_content {
@@ -16,6 +20,7 @@ footer p {
 
 th {
   background: #4C4C4C;
+  color: #DDDDDD;
 }
 
 .column {
