@@ -6,21 +6,24 @@ footer p {
   font-size: x-small;
 }
 
+$custom-bg-color: #DDDDDD;
+$custom-font-color: #4C4C4C;
+
 #header_wrap, #footer_wrap {
-  background: linear-gradient(to top, #4C4C4C, #4C4C4C);
+  background: linear-gradient(to top, $custom-font-color, $custom-font-color);
 }
 
 #project_title {
-  color: #DDDDDD;
+  color: $custom-bg-color;
 }
 
-#main_content {
-  color: #4C4C4C;
+h2, #main_content {
+  color: $custom-font-color;
 }
 
 th {
-  background: #4C4C4C;
-  color: #DDDDDD;
+  background: $custom-font-color;
+  color: $custom-bg-color;
 }
 
 .column {
