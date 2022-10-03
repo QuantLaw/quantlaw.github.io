@@ -6,7 +6,7 @@ footer p {
   font-size: x-small;
 }
 
-$custom-bg-color: #DDDDDD;
+$custom-bg-color: #f2f2f2;
 $custom-font-color: #4C4C4C;
 $custom-accent-color: #0095BF;
 $custom-font: Palatino;
@@ -37,8 +37,12 @@ table, th, td {
   border-right: none;
 }
 
-#header_wrap, #footer_wrap {
-  background: $custom-font-color;
+#header_wrap {
+  background: linear-gradient($custom-font-color, $custom-bg-color);
+}
+
+#footer_wrap {
+  background: linear-gradient($custom-bg-color, $custom-font-color);
 }
 
 #footer, #project_title {
@@ -49,7 +53,7 @@ h2, #main_content {
   color: $custom-font-color;
 }
 
-th {
+th, #main_content_wrap {
   background: $custom-bg-color;
   color: $custom-font-color;
 }
