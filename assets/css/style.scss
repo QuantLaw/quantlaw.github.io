@@ -53,9 +53,18 @@ h2, #main_content {
   color: $custom-font-color;
 }
 
+h2 {
+  background: inherit;
+}
+
 th, #main_content_wrap {
   background: $custom-bg-color;
   color: $custom-font-color;
+}
+
+#main_content_wrap {
+  border-top: 0px;
+  border-bottom: 0px;
 }
 
 .column {
